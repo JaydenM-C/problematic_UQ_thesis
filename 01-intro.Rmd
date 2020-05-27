@@ -1,0 +1,5 @@
+\chapter{Example of a Chapter}
+\label{ch-1}
+\pagestyle{headings}
+
+An interesting point [@Cawvey2017].

@@ -1,0 +1,16 @@
+--- 
+site: bookdown::bookdown_site
+output:
+  bookdown::pdf_book:
+    citation_package: biblatex
+    fig_caption: yes
+    keep_tex: yes
+    template: MainThesis.tex
+link-citations: yes
+bibliography:
+  - References/Bibliography.bib
+---
+
+```{r doc_setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
